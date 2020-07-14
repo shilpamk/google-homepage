@@ -24,9 +24,14 @@ input[type=text] {
     margin-left: 30%;
   }
 
-.left-align {
+.left-align{
     float: left;
     margin-left: 20px;
+}
+span {
+    text-align: left; 
+    margin-left: 60px;
+    margin-top: 20px;
 }
 .right-align {
     float: right;
@@ -37,9 +42,21 @@ input[type=text] {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 40px;            /* Footer height */
-    
+    height: 80px;            /* Footer height */
   }
+  .clr {
+      clear: both;
+  }
+.button{
+      margin-left: 40%;
+      
+  }
+  #b1, #b2{
+      padding: 10px;
+  }
+  
+  
+
 
 
  
