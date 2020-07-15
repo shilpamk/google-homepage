@@ -6,3 +6,4 @@ Used: HTML CSS
 * Footer
 * Displaying image
 * Background image
+* Buttons
