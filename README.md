@@ -2,7 +2,7 @@ Project name: Google Homepage
 
 Used: HTML CSS 
 
-Navigation
-Footer
-Displaying image
-Background image
+* Navigation
+* Footer
+* Displaying image
+* Background image
