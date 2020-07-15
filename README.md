@@ -1,4 +1,4 @@
-Project name: Google Homepage
+## Project: Google Homepage
 
 Used: HTML CSS 
 
