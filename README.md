@@ -1,6 +1,8 @@
 Project name: Google Homepage
 
-In this project I have learned so far,
+Used: HTML CSS 
 
+Navigation
+Footer
 Displaying image
 Background image
