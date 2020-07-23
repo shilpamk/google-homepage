@@ -1,18 +1,21 @@
 @import url("reset.css");
 
-a {
-    text-decoration: none;
+/* Testing purpose 
+body {
+    background: pink;
 }
+*/
+/* Top Navigation */
 .flex-container-1 {
     display: flex;
-}
-.flex-item {
-    margin: 10px;
-    padding: 5px;
+    justify-content: space-around;
+    padding: 10px;
 }
 #dummy {
     flex-basis: 55%;
 }
+
+/* Google logo */
 .flex-container-2 {
     display: flex;
     justify-content: center;
@@ -22,6 +25,8 @@ a {
 img {
     height: 100px;
 }
+
+/* Search area */
 .flex-container-3 {
     display: flex;
     justify-content: center;
@@ -37,6 +42,7 @@ input[type=text] {
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;    
   }
+  /* Buttons below search area */
   .flex-container-4 {
     display: flex;
     justify-content: center;
@@ -50,12 +56,25 @@ input[type=text] {
     height: 40px;
     margin: 10px;
 }
+
+/* Dummy container to push the footer to the bottom*/
 .flex-container-5 {
     display: flex;
-    height: 200px;
-    align-items: flex-end;
+    height: 163px;
+   /* background: yellow; For testing*/
 }
 
-.flex-container-5 > #dummy {
+/* Footer - Bottom navigation*/
+.flex-container-6 {
+    display: flex;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    background: #f2f2f2;
+    border: 1px solid #e4e4e4;
+    color: rgba(0,0,0,.54);
+}
+
+#dummy2 {
     flex-basis: 45%;
 }
