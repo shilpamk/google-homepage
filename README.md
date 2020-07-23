@@ -7,3 +7,4 @@ Used: HTML CSS
 * Displaying image
 * Background image
 * Buttons
+* Flexbox

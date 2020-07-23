@@ -6,53 +6,34 @@
     <title>Google-Homepage</title>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
-<body>
-    <!-- Top Navigation -->
-    <nav>
-        <ul class="left-align">
-            <li><a href="index.html">About</a></li>
-            <li><a href="index.html">Store</a></li>
-        </ul>
-        <ul class="right-align">
-            <li ><a href="#">Gmail</a></li>
-            <li><a href="#">Images</a></li>
-            <li><a href="#">Google-Apps</a></li>
-            <li><a href="#">Sign In</a></li>
-        </ul>
+<body >   
+    <nav class="flex-container-1">
+       <div class="flex-item">About</div>
+       <div class="flex-item">Store</div>
+       <div class="flex-item" id="dummy"></div>
+       <div class="flex-item">Gmail</div>
+       <div class="flex-item">Images</div>
+       <div class="flex-item">Google-Apps</div>
+       <div class="flex-item">Sign-In</div>
     </nav>
-    <br>
-    <!-- Google logo -->
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-homepage">
-    
-    <!-- Search area -->
-    <form>
+    <div class="flex-container-2">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-homepage">   
+    </div>
+    <div class="flex-container-3">
         <input type="text">
-    </form>
-    <br>
-
-    <!-- Buttons below search area -->
-    <div class="button">
+    </div>
+    <div class="button flex-container-4">
         <input id="b1"type="button" value="Google Search">
         <input id="b2"type="button" value="I'm Feeling Lucky">
     </div>
-
-    <!-- Bottom Navigation -->
-    <footer>
-       <br> <!-- To leave some space -->
-        <nav>
-            <span>United Kingdom</span>
-            <hr>
-            <ul class="left-align">
-                <li><a href="#">Advertising</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">How Search Works</a></li>
-            </ul>
-            <ul class="right-align">
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Settings</a></li>
-            </ul>
-        </nav>
-    </footer>
+    <nav class="flex-container-5">
+        <div class="flex-item">Advertising</div>
+        <div class="flex-item">Business</div>
+        <div class="flex-item">How Search Works.</div>
+        <div class="flex-item" id="dummy"></div>
+        <div class="flex-item">Privacy</div>
+        <div class="flex-item">Terms</div>
+        <div class="flex-item">Settings</div>
+     </nav>
 </body>
 </html>
