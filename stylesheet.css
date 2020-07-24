@@ -16,22 +16,19 @@ body {
     flex-basis: 55%;
 }
 
-/* Google logo */
+/* Google logo and search area */
 .flex-container-2 {
+    margin-top: 100px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     height: 200px;
-    align-items: flex-end;
+    align-items: center;
 }
 img {
     height: 100px;
 }
 
-/* Search area */
-.flex-container-3 {
-    display: flex;
-    justify-content: center;
-}
 input[type=text] {
     width: 500px;
     border: 1px solid #ccc;
@@ -43,12 +40,9 @@ input[type=text] {
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;    
   }
-  /* Buttons below search area */
-  .flex-container-4 {
+.button {
     display: flex;
-    justify-content: center;
-    height: 50px;
-    align-items: center;
+    justify-content: space-evenly;
 }
 #b1, #b2{
     padding: 10px;
@@ -59,7 +53,7 @@ input[type=text] {
 }
 
 /* Footer - Bottom navigation */
-.flex-container-5 {
+.flex-container-3 {
     display: flex;
     height: 40px;
     justify-content: space-around;

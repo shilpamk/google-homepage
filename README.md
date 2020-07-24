@@ -8,3 +8,4 @@ Used: HTML CSS
 * Background image
 * Buttons
 * Flexbox
+* Positioning
