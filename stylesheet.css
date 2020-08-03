@@ -1,10 +1,22 @@
 @import url("reset.css");
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* Horizontal navigation */
 li {
+
+    
     display: inline;
     padding: 2px;
 }
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.75;
+    font-size: 13px;
+}
+
 /* Align the image center */
 img {
     display: block;
@@ -30,6 +42,8 @@ input[type=text] {
 #b1, #b2{
     padding: 10px;
     border-radius: 10px;
+    font-size: 14px;
+    background: #f2f2f2;
 }
 hr {
     height: 1px;
@@ -43,15 +57,16 @@ hr {
 }
 span {
     text-align: left; 
-    margin-left: 60px;
+    margin-left: 20px;
     color: rgb(102, 99, 99);
+    font-size: 15px;
 }
 .right-align {
     float: right;
     margin-right: 20px;
 }
 footer {
-    background: lightgray;
+    background: #f2f2f2;
     position: fixed;
     bottom: 0;
     left: 0;
