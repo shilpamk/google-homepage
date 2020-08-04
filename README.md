@@ -1,8 +1,9 @@
 ## Project: Google Homepage [ClickHere](https://shilpamk.github.io/google-homepage/)
 
-Used: HTML CSS 
+Usage and Learning: HTML CSS 
 
 * Navigation
+* Positioning
 * Footer
 * Displaying image
 * Background image
