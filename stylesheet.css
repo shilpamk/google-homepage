@@ -8,14 +8,18 @@ body {
 li {
     display: inline;
     padding: 3px;
-    position: relative;
 }
 a {
     text-decoration: none;
     color: black;
     opacity: 0.75;
     font-size: 13px;
-    
+}
+/* for aligning google-apps icon properly*/
+.pos {
+    position: relative;
+    width: 30px;
+    height: 30px;
 }
 #google-apps {
     height: 20px;
